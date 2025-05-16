@@ -10,9 +10,10 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*.onedrive.com") ||
     shExpMatch(host, "*.blob.core.windows.net") ||
     shExpMatch(host, "*.office.com") ||
-    shExpMatch(host, "*.google.com") ||
     shExpMatch(host, "*.microsoft.com") ||
     shExpMatch(host, "*.google.cn") ||
+    shExpMatch(host, "*.google.com") ||
+    shExpMatch(host, "*.translate.google.com") ||
     shExpMatch(host, "*.googleapis.com")||
     shExpMatch(host, "*.translate.googleapis.com")
   ) {
