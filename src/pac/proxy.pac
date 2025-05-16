@@ -13,7 +13,8 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*.google.com") ||
     shExpMatch(host, "*.microsoft.com") ||
     shExpMatch(host, "*.google.cn") ||
-    shExpMatch(host, "*.googleapis.com")
+    shExpMatch(host, "*.googleapis.com")||
+    shExpMatch(host, "*.translate.googleapis.com")
   ) {
     return proxy;
   }
