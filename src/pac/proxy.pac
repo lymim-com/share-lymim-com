@@ -16,7 +16,7 @@ function FindProxyForURL(url, host) {
     shExpMatch(host, "*.translate.google.com") ||
     shExpMatch(host, "*.googleapis.com") ||
     shExpMatch(host, "*.translate.googleapis.com") ||
-    shExpMatch(host, "*.raw.githubusercontent.com")
+    shExpMatch(host, "raw.githubusercontent.com")
   ) {
     return proxy;
   }
